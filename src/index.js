@@ -19,6 +19,10 @@ function displayCurrentInfo(response) {
   currentWind.innerHTML = windSpeed;
   let cityElement = document.querySelector("#current-city");
   cityElement.innerHTML = response.data.city;
+
+  let emojiElement = document.querySelector(".current-temperature-icon");
+  let emojiUrl = response.data.condition.icon_url;
+  emojiElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
 function handleSearchSubmit(event) {
@@ -66,3 +70,5 @@ let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
 currentDateELement.innerHTML = formatDate(currentDate);
+
+search("barcelona");
