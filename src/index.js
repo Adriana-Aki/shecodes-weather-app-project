@@ -25,7 +25,7 @@ function displayCurrentInfo(response) {
   emojiElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
-function handleSearchSubmit(event) {
+function handlerSearchSubmit(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
   search(searchInputElement.value);
@@ -64,11 +64,9 @@ function formatDate(date) {
 }
 
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", search);
+searchForm.addEventListener("submit", handlerSearchSubmit);
 
 let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
 currentDateELement.innerHTML = formatDate(currentDate);
-
-search("barcelona");
