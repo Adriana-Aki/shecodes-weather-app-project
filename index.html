@@ -14,62 +14,116 @@
     <title>My weather application</title>
   </head>
   <body>
-    <div class="weather-app">
-      <header>
-        <form id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            required
-            class="search-input"
-            id="search-input"
-          />
-          <input type="submit" value="Search" class="search-button" />
-        </form>
-      </header>
-      <main>
-        <div class="current-weather">
-          <div>
-            <h1 class="current-city" id="current-city"></h1>
-            <p class="current-details">
-              <span id="current-date"></span>,
-              <span class="current-info"></span> <br />
-              Humidity:
-              <strong><span class="current-humidity"> </span>%</strong>, Wind:
-              <strong><span class="current-wind"></span>km/h</strong>
-            </p>
+    <div class="weatherapp-background">
+      <div class="weather-app">
+        <header>
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              class="search-input"
+              id="search-input"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+        </header>
+        <main>
+          <div class="current-weather">
+            <div>
+              <h1 class="current-city" id="current-city"></h1>
+              <p class="current-details">
+                <span id="current-date"></span>,
+                <span class="current-info"></span> <br />
+                Humidity:
+                <strong><span class="current-humidity"> </span>%</strong>, Wind:
+                <strong><span class="current-wind"></span>km/h</strong>
+              </p>
+            </div>
+            <div class="current-temperature">
+              <span class="current-temperature-icon"></span
+              ><span
+                class="current-temperature-value"
+                id="current-temperature"
+              ></span
+              ><span class="current-temperature-unit">°C</span>
+            </div>
           </div>
-          <div class="current-temperature">
-            <span class="current-temperature-icon"></span
-            ><span
-              class="current-temperature-value"
-              id="current-temperature"
-            ></span
-            ><span class="current-temperature-unit">°C</span>
+          <div class="weather-forecast" id="forecast">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15º</strong>
+                </div>
+                <div class="weather-forecast-temperature">9º</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15º</strong>
+                </div>
+                <div class="weather-forecast-temperature">9º</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15º</strong>
+                </div>
+                <div class="weather-forecast-temperature">9º</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15º</strong>
+                </div>
+                <div class="weather-forecast-temperature">9º</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15º</strong>
+                </div>
+                <div class="weather-forecast-temperature">9º</div>
+              </div>
+            </div>
           </div>
-        </div>
-      </main>
-      <footer>
-        <p>
-          This project was coded by
-          <a href="https://github.com/Adriana-Aki" target="_blank"
-            >Adriana Janockova</a
-          >
-          and is
-          <a
-            href="https://github.com/Adriana-Aki/shecodes-workshop3-project"
-            target="_blank"
-          >
-            on GitHub</a
-          >
-          and
-          <a
-            href="https://my-shecodes-project-adrianaj.netlify.app/"
-            target="_blank"
-            >hosted on Netlify</a
-          >
-        </p>
-      </footer>
+        </main>
+        <footer>
+          <p>
+            This project was coded by
+            <a href="https://github.com/Adriana-Aki" target="_blank"
+              >Adriana Janockova</a
+            >
+            and is
+            <a
+              href="https://github.com/Adriana-Aki/shecodes-workshop3-project"
+              target="_blank"
+            >
+              on GitHub</a
+            >
+            and
+            <a
+              href="https://my-shecodes-project-adrianaj.netlify.app/"
+              target="_blank"
+              >hosted on Netlify</a
+            >
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
   <script src="src/index.js"></script>
