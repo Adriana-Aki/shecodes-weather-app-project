@@ -1,5 +1,17 @@
+html {
+  min-height: 100%;
+}
+
 body {
-  background: #f9f7fe;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
