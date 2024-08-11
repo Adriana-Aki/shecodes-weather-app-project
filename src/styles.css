@@ -8,7 +8,7 @@ body {
     rgb(232, 245, 253) 3.3%,
     rgb(252, 253, 255) 109.6%
   );
-
+  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 100%;
@@ -20,6 +20,9 @@ a {
 }
 
 .weather-app {
+  background: #ecf6fe;
+  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
@@ -90,7 +93,7 @@ main {
   margin: 0;
 }
 .current-details {
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.7);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -138,7 +141,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.7);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
