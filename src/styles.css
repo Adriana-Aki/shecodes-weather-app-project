@@ -8,10 +8,10 @@ body {
     rgb(232, 245, 253) 3.3%,
     rgb(252, 253, 255) 109.6%
   );
-  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
-  height: 100%;
+  height: fit-content;
   font-family: "Roboto", sans-serif;
 }
 
@@ -21,7 +21,7 @@ a {
 
 .weather-app {
   background: #ecf6fe;
-  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(../images/background.jpg);
 
   max-width: 600px;
   margin: 60px auto;
