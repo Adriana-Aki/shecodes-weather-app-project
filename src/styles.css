@@ -48,21 +48,21 @@ header {
   font-size: 16px;
   padding: 20px;
   width: 75%;
+
   border-radius: 6px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .search-button {
-  margin-left: 5px;
   font-size: 16px;
   background-color: #ecf6fe;
   color: rgba(39, 33, 66, 0.7);
   border: none;
   padding: 20px;
-  line-height: 1;
+
   border-radius: 5px;
-  width: 23%;
+  width: 20%;
   transition: all 200ms ease-in-out;
   border: 1px solid #c7d3e3;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
